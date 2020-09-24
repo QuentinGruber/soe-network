@@ -3,18 +3,18 @@
   "version": "0.1.2",
   "description": "Library for emulating SOE network traffic (PlanetSide 2 in particular)",
   "author": {
-      "name" : "Jacob Seidelin", 
-      "email" : "jseidelin@nihilogic.dk", 
-      "url" : "http://github.com/jseidelin"
+    "name": "Jacob Seidelin",
+    "email": "jseidelin@nihilogic.dk",
+    "url": "http://github.com/jseidelin"
   },
   "license": "MIT",
   "main": "soenetwork.js",
   "dependencies": {
     "buffer-crc32": ">=0.2.1",
-    "mongodb": ">=1.4.8",
     "debug": ">=1.0.2",
-    "bufferext": "git+ssh://git@github.com:jseidelin/bufferext.git",
-    "jenkins-hash": "git+ssh://git@github.com:jseidelin/jenkins-hash.git",
-    "dataschema": "git+ssh://git@github.com:jseidelin/dataschema.git"
+    "h1z1-buffer": "^1.0.0",
+    "h1z1-h1z1-dataschema": "^1.0.3",
+    "hash-jenkins": "^1.0.1",
+    "mongodb": ">=1.4.8"
   }
 }
